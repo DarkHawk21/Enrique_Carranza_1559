@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	flex-wrap: wrap;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.titulo {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.subtitulo {
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.programa {
+	width: 50%;
+	height: 100%;
+	min-width: 150px;
+	position: relative;
+	font-size: 16px;
+	padding: 40px 20px;
+}
+
+.programa-eficaz {
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.programa-eficiente {
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.programa-eficaz ul {
+	margin-top: 50px;
+}
+
+.programa div {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.programa div ul {
+	width: 100%;
+	padding: 0 40px;
+	list-style: none;
+}
+
+.programa div ul li {
+	width: 100%;
+	padding-left: 20px;
+	font-size: 14px;
+	padding: 2.5px 0;
+	font-weight: bold;
+}
+
+.programa .input-table {
+	width: 90%;
+	max-width: 300px;
+	min-width: 200px;
+	background: none;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: none;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-bottom: 1px solid #000;
+}
